@@ -61,7 +61,7 @@ const l = new Lesson();
 l.tap();
 l.start();
 
-// 串行,是按照定义的顺序来执行
+// 串行,是按照tap函数中调用(定义）的顺序来执行
 // output
 // class0318 c318
 // 2秒钟后

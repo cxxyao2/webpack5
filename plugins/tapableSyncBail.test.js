@@ -12,7 +12,7 @@ const {
 class Lesson {
   constructor() {
     // 初始化容器,
-    // address是个参数 callback
+    // address是个参数
     this.hooks = {
       go: new SyncBailHook(['address']),
     };

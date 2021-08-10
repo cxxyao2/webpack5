@@ -1,3 +1,5 @@
+// 同步plugins的执行顺序
+
 const {
   SyncHook,
   SyncBailHook,

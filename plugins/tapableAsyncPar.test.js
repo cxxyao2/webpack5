@@ -62,6 +62,7 @@ l.tap();
 l.start();
 
 // output
+// 按照js的macrotask ,microtask顺序
 // class0318 c318
 // class0610 jack 18
 // class0510 jack  age is 18
