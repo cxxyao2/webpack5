@@ -1,6 +1,12 @@
-const Plugin2 = require('./plugins/Plugin2');
+const CopyWebpackPlugin = require('./plugins/CopyWebpackPlugin');
 
 module.exports = {
-  plugins: [new Plugin2()],
+  plugins: [
+    new CopyWebpackPlugin({
+      from: 'public',
+      to: 'css',
+      ignore: ['**/index.html'],
+    }),
+  ],
   mode: 'production',
 };
