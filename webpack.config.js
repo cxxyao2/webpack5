@@ -5,7 +5,16 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: ['loader1', 'loader2', 'loader3'],
+        use: [
+          'loader1',
+          'loader2',
+          {
+            loader: 'loader3',
+            options: {
+              name: 'jack',
+            },
+          },
+        ],
       },
     ],
   },
