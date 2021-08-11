@@ -1,3 +1,5 @@
-export default function count(a, b) {
+function count(a, b) {
   return a * b;
 }
+
+module.exports = count;
