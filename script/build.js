@@ -1,4 +1,4 @@
-const myWebpack = require('../lib/myWebpack');
+const myWebpack = require('../lib/myWebpack2');
 const config = require('../config/webpack.config');
 
 const compiler = myWebpack(config);
